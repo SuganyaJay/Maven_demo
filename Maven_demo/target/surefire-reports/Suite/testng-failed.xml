@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="confirm" value="Nion!@57"/>
+    <parameter name="new1" value="dfjkflf123"/>
+    <parameter name="old" value="Nion!@57"/>
+    <parameter name="pw" value="Nion!@57"/>
+    <parameter name="url" value="https://www.szonline.in/"/>
+    <parameter name="email" value="jaysuganya23@gmail.com"/>
+    <classes>
+      <class name="SZ.login">
+        <methods>
+          <include name="chrome"/>
+          <include name="url"/>
+          <include name="login_mtd"/>
+          <include name="pw_change"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- SZ.login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
